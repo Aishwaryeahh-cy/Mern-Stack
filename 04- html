@@ -12,7 +12,7 @@
     <form action="/tacos">
         <br>
         <label for="username">Enter your name</label>
-       ff <input id="username" type="text" placeholder="enter your name">
+       <input id="username" type="text" placeholder="enter your name">
         </br>
         <br>
         <label for="password">Enter your password</label>
