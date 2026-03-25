@@ -1,0 +1,88 @@
+let x = "fooo";
+console.log(x);
+console.log(typeof (x));
+
+let y = 1;
+console.log(y);
+console.log(typeof (y));
+
+let z = 2.9;
+console.log(z)
+console.log(typeof (z))
+z = "leap"
+console.log(typeof (z))
+
+let zp = true;
+console.log(zp)
+console.log(typeof (zp))
+
+let r;
+console.log(r)
+r = "sa";
+console.log(typeof (r))
+
+let p = null;
+console.log(p)
+console.log(typeof (p))
+
+// Javascript is a dynamic language
+let course = {
+    title: "HTT",
+    description: "kay",
+    rating: 7
+};
+console.log(course);
+console.log(typeof (course));
+console.log(course.title);
+console.log(course['title']);
+
+let num = {
+    data: 45,
+    value: 90,
+    delta: 9
+};
+console.log(num)
+console.log(typeof (num)) //Called . notation
+console.log(num.delta)   //Called packet notation
+
+let n = "maya";
+let m = n;
+n = "edu";
+console.log(n);
+console.log(m);
+
+let c = ['hello', 'world', 9, null];
+console.log(typeof (c));
+console.log(c[1]);
+console.log(c[2]);
+console.log(c[3]);
+console.log(c[4]);
+Course("hello");
+
+function Course(c) {
+    console.log('ddds' + c);
+}
+Course("hello");
+Course("hi");
+Course("hey");
+Course("R u there")
+
+console.log(a);
+console.log(this.a);
+console.log(window.a);
+var a = 10;
+console.log(a);
+console.log(this.a);
+console.log(window.a);
+console.log(window);
+console.log(this == window);
+{
+    let a = 20;
+    const b = 30;
+    var c = 40;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+console.log(c);
+
